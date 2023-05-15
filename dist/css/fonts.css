@@ -1,0 +1,227 @@
+@font-face {
+    font-display: swap;
+    font-family: Whitman;
+    font-style: normal;
+    font-weight: 400;
+    src: url(/css/fonts/Whitman-RomanLF.eot);
+    src: url(/css/fonts/Whitman-RomanLF.eot?#iefix) format("embedded-opentype"), url(/css/fonts/Whitman-RomanLF.woff) format("woff"), url(/css/fonts/Whitman-RomanLF.ttf) format("truetype"), url(/css/fonts/Whitman-RomanLF.svg#Whitman) format("svg")
+}
+
+@font-face {
+    font-display: swap;
+    font-family: WhitmanItalic;
+    src: url(/css/fonts/Whitman-ItalicLF.eot);
+    src: url(/css/fonts/Whitman-ItalicLF.eot?#iefix) format("embedded-opentype"), url(/css/fonts/Whitman-ItalicLF.woff) format("woff"), url(/css/fonts/Whitman-ItalicLF.ttf) format("truetype"), url(/css/fonts/Whitman-ItalicLF.svg#WhitmanItalic) format("svg")
+}
+
+@font-face {
+    font-family: Excellent;
+    font-style: normal;
+    font-weight: 400;
+    src: url(/css/fonts/Excellent.eot);
+    src: url(/css/fonts/Excellent.eot?#iefix) format("embedded-opentype"), url(/css/fonts/Excellent.woff) format("woff"), url(/css/fonts/Excellent.ttf) format("truetype"), url(/css/fonts/Excellent.svg#Excellent) format("svg")
+}
+
+@font-face {
+    font-display: swap;
+    font-family: FreightSansPro-BlackItalic;
+    font-style: normal;
+    font-weight: 400;
+    src: url(/css/fonts/FreightSans/FreightSans-Pro-Black-Italic.otf)
+}
+
+@font-face {
+    font-display: swap;
+    font-family: FreightSansProBlack;
+    font-style: normal;
+    font-weight: 400;
+    src: url(/css/fonts/FreightSans/FreightSans-Pro-Black.otf)
+}
+
+@font-face {
+    font-display: swap;
+    font-family: FreightSansProBoldItalic;
+    font-style: normal;
+    font-weight: 400;
+    src: url(/css/fonts/FreightSans/FreightSans-Pro-Bold-Italic.otf)
+}
+
+@font-face {
+    font-display: swap;
+    font-family: FreightSansProBold;
+    font-style: normal;
+    font-weight: 400;
+    src: url(/css/fonts/FreightSans/FreightSans-Pro-Bold.otf)
+}
+
+@font-face {
+    font-display: swap;
+    font-family: FreightSansProBookItalic;
+    font-style: normal;
+    font-weight: 400;
+    src: url(/css/fonts/FreightSans/FreightSans-Pro-Book-Italic.otf)
+}
+
+@font-face {
+    font-display: swap;
+    font-family: FreightSansProBook;
+    font-style: normal;
+    font-weight: 400;
+    src: url(/css/fonts/FreightSans/FreightSans-Pro-Book.otf)
+}
+
+@font-face {
+    font-display: swap;
+    font-family: FreightSansProLightItalic;
+    font-style: normal;
+    font-weight: 400;
+    src: url(/css/fonts/FreightSans/FreightSans-Pro-Light-Italic.otf)
+}
+
+@font-face {
+    font-display: swap;
+    font-family: FreightSansProLight;
+    font-style: normal;
+    font-weight: 400;
+    src: url(/css/fonts/FreightSans/FreightSans-Pro-Light.otf)
+}
+
+@font-face {
+    font-display: swap;
+    font-family: FreightSansProMediumItalic;
+    font-style: normal;
+    font-weight: 400;
+    src: url(/css/fonts/FreightSans/FreightSans-Pro-Medium-Italic.otf)
+}
+
+@font-face {
+    font-display: swap;
+    font-family: FreightSansProMedium;
+    font-style: normal;
+    font-weight: 400;
+    src: url(/css/fonts/FreightSans/FreightSans-Pro-Medium.otf)
+}
+
+@font-face {
+    font-display: swap;
+    font-family: FreightSansProSemiBoldItalic;
+    font-style: normal;
+    font-weight: 400;
+    src: url(/css/fonts/FreightSans/FreightSans-Pro-Semibold-Italic.otf)
+}
+
+@font-face {
+    font-display: swap;
+    font-family: FreightSansProSemiBold;
+    font-style: normal;
+    font-weight: 400;
+    src: url(/css/fonts/FreightSans/FreightSans-Pro-Semibold.otf)
+}
+
+@font-face {
+    font-display: swap;
+    font-family: Library3am;
+    font-style: normal;
+    font-weight: 400;
+    src: url(/css/fonts/Library3am.otf)
+}
+
+@font-face {
+    font-display: swap;
+    font-family: Freight;
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://use.typekit.net/af/442215/000000000000000000010b5a/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3) format("woff2"), url(https://use.typekit.net/af/442215/000000000000000000010b5a/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3) format("woff"), url(https://use.typekit.net/af/442215/000000000000000000010b5a/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3) format("opentype")
+}
+
+@font-face {
+    font-display: swap;
+    font-family: Freight Italic;
+    font-style: italic;
+    font-weight: 400;
+    src: url(https://use.typekit.net/af/3df5fe/000000000000000000010b5b/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3) format("woff2"), url(https://use.typekit.net/af/3df5fe/000000000000000000010b5b/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3) format("woff"), url(https://use.typekit.net/af/3df5fe/000000000000000000010b5b/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3) format("opentype")
+}
+
+@font-face {
+    font-display: swap;
+    font-family: Freight Compressed;
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://use.typekit.net/af/5728cf/00000000000000000001775d/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3) format("woff2"), url(https://use.typekit.net/af/5728cf/00000000000000000001775d/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3) format("woff"), url(https://use.typekit.net/af/5728cf/00000000000000000001775d/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3) format("opentype")
+}
+
+@font-face {
+    font-display: swap;
+    font-family: Freight Bold;
+    font-style: normal;
+    font-weight: 700;
+    src: url(https://use.typekit.net/af/1709eb/000000000000000000010b60/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3) format("woff2"), url(https://use.typekit.net/af/1709eb/000000000000000000010b60/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3) format("woff"), url(https://use.typekit.net/af/1709eb/000000000000000000010b60/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3) format("opentype")
+}
+
+@font-face {
+    font-display: swap;
+    font-family: Whitman Display;
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://use.typekit.net/af/be39ee/00000000000000003b9ae92a/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3) format("woff2"), url(https://use.typekit.net/af/be39ee/00000000000000003b9ae92a/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3) format("woff"), url(https://use.typekit.net/af/be39ee/00000000000000003b9ae92a/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3) format("opentype")
+}
+
+@font-face {
+    font-display: swap;
+    font-family: Whitman Display Italic;
+    font-style: italic;
+    font-weight: 400;
+    src: url(https://use.typekit.net/af/d8ddb9/00000000000000003b9ae92b/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3) format("woff2"), url(https://use.typekit.net/af/d8ddb9/00000000000000003b9ae92b/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3) format("woff"), url(https://use.typekit.net/af/d8ddb9/00000000000000003b9ae92b/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3) format("opentype")
+}
+
+@font-face {
+    font-display: swap;
+    font-family: Whitman Display Bold Italic;
+    font-style: italic;
+    font-weight: 700;
+    src: url(https://use.typekit.net/af/4034e7/00000000000000003b9ae92f/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3) format("woff2"), url(https://use.typekit.net/af/4034e7/00000000000000003b9ae92f/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3) format("woff"), url(https://use.typekit.net/af/4034e7/00000000000000003b9ae92f/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3) format("opentype")
+}
+
+@font-face {
+    font-display: swap;
+    font-family: Whitman Display Bold;
+    font-style: normal;
+    font-weight: 700;
+    src: url(https://use.typekit.net/af/d047e3/00000000000000003b9ae930/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3) format("woff2"), url(https://use.typekit.net/af/d047e3/00000000000000003b9ae930/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3) format("woff"), url(https://use.typekit.net/af/d047e3/00000000000000003b9ae930/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3) format("opentype")
+}
+
+@font-face {
+    font-display: swap;
+    font-family: Whitman Display Light;
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://s3.amazonaws.com/functionofbeauty.com/fonts/WhitmanDisplay-Light.woff2), url(https://s3.amazonaws.com/functionofbeauty.com/fonts/WhitmanDisplay-Light.woff)
+}
+
+@font-face {
+    font-display: swap;
+    font-family: Whitman Display Light;
+    font-style: italic;
+    font-weight: 400;
+    src: url(https://s3.amazonaws.com/functionofbeauty.com/fonts/WhitmanDisplay-LightItalic.woff2), url(https://s3.amazonaws.com/functionofbeauty.com/fonts/WhitmanDisplay-LightItalic.woff)
+}
+
+@font-face {
+    font-display: auto;
+    font-display: swap;
+    font-family: Freight Light;
+    font-style: normal;
+    font-weight: 300;
+    src: url(https://use.typekit.net/af/1f931a/00000000000000003b9b2f9a/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3) format("woff2"), url(https://use.typekit.net/af/1f931a/00000000000000003b9b2f9a/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3) format("woff"), url(https://use.typekit.net/af/1f931a/00000000000000003b9b2f9a/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3) format("opentype")
+}
+
+@font-face {
+    font-display: auto;
+    font-display: swap;
+    font-family: Freight Light Italic;
+    font-style: italic;
+    font-weight: 300;
+    src: url(https://use.typekit.net/af/62f6ac/00000000000000003b9b2f9b/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i3&v=3) format("woff2"), url(https://use.typekit.net/af/62f6ac/00000000000000003b9b2f9b/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i3&v=3) format("woff"), url(https://use.typekit.net/af/62f6ac/00000000000000003b9b2f9b/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i3&v=3) format("opentype")
+}
+
+/*# sourceMappingURL=fonts.css.map*/

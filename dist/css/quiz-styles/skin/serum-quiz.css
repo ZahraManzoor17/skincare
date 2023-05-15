@@ -1,0 +1,493 @@
+.italic-text {
+    font-family: WhitmanItalic
+}
+
+.skin-bundle-wrapper {
+    margin: 0 auto;
+    max-width: 900px;
+    padding-top: 2rem
+}
+
+.skin-bundle-wrapper .back-to-quiz-btn {
+    color: #262929;
+    margin-top: 30px;
+    padding-bottom: 4px
+}
+
+.skin-bundle-wrapper .add-to-cart-btn {
+    display: block;
+    margin: 0 auto
+}
+
+.skin-bundle-wrapper .quiz-buttons {
+    align-items: center;
+    flex-direction: column-reverse
+}
+
+.serum-highlight {
+    border-bottom: 1px solid #c1cac8;
+    margin-bottom: 40px;
+    padding-bottom: 50px
+}
+
+.serum-highlight .formula-img-wrapper {
+    border-bottom: 0;
+    margin: 0 auto;
+    max-width: 280px;
+    position: relative
+}
+
+.serum-highlight span.formulaName {
+    font-size: 12px;
+    left: 110px;
+    top: 242px;
+    transform: rotate(-90deg) translate(55%);
+    width: 60px
+}
+
+.skin-goals-container {
+    margin: .5rem 0
+}
+
+.skin-goals-container span {
+    background-color: #f0f8f7;
+    border-radius: 2px;
+    color: #4c5150;
+    display: inline-block;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 19px;
+    margin-bottom: 4px;
+    margin-right: 5px;
+    padding: 8px 12px
+}
+
+.add-to-cart-btn {
+    display: block;
+    margin: 0 auto;
+    max-width: 330px;
+    width: 100%
+}
+
+.formula-img-wrapper img {
+    display: block;
+    margin: 0 auto;
+    padding: 30px 0
+}
+
+.formula-img-wrapper .formulaName {
+    left: 31%;
+    top: 47%
+}
+
+.frequency-buttons {
+    left: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    position: relative;
+    right: 50%;
+    width: 100vw
+}
+
+.frequency-buttons .selected {
+    border: 1px solid #61c8b3
+}
+
+.frequency-buttons .selected .checkmark {
+    display: block
+}
+
+.frequency-buttons .selected.fwb-frequency {
+    border: 1px solid #96c
+}
+
+.frequency-buttons .selected.fwb-frequency .checkmark {
+    background-color: #96c
+}
+
+.formula-summary-wrapper {
+    height: 0;
+    margin-bottom: 27px;
+    margin-top: 0;
+    max-height: unset;
+    transition-duration: .3s;
+    transition-property: height;
+    transition-timing-function: ease
+}
+
+.formula-summary-wrapper.slide-out {
+    height: 190px
+}
+
+.formula-summary ul {
+    list-style-type: none
+}
+
+.formula-summary__icon {
+    height: 28px;
+    margin-right: 14px;
+    vertical-align: middle;
+    width: 24px
+}
+
+.formula-summary h6 {
+    display: inline-block
+}
+
+.formula-summary__info-list li {
+    letter-spacing: .75px;
+    padding-bottom: 10px
+}
+
+.formula-summary__info-list li span {
+    font-family: Freight, Arial;
+    font-weight: 400;
+    text-transform: uppercase
+}
+
+.formula-serum-highlight__header {
+    text-align: center
+}
+
+section.serum-highlight__goals {
+    padding-bottom: 21px
+}
+
+.serum-highlight__goals {
+    text-align: center
+}
+
+.serum-highlight__goals h3 {
+    padding-bottom: 20px
+}
+
+.serum-highlight__description {
+    margin: 0 auto;
+    max-width: 400px;
+    padding: 15px 0 0;
+    text-align: center
+}
+
+.serum-highlight__description span {
+    background-color: #d3f4ec
+}
+
+.serum-highlight__description a {
+    color: #61c8b3
+}
+
+.ingredients-highlight {
+    border-bottom: 1px solid #a5adab;
+    margin-bottom: 40px
+}
+
+.ingredients-highlight>h3 {
+    padding-bottom: 27px
+}
+
+section.ingredients-highlight {
+    padding-bottom: 30px
+}
+
+.ingredient-wrapper {
+    flex: 1
+}
+
+.ingredient-wrapper img {
+    display: block;
+    margin: 0 auto;
+    max-width: 400px;
+    padding-bottom: 37px;
+    width: 100%
+}
+
+.no-ingredients-list {
+    padding: 35px 0;
+    text-align: center
+}
+
+.no-ingredients-list span {
+    color: #f48594;
+    font-size: 20px;
+    padding: 0 5px;
+    text-decoration: line-through
+}
+
+.ui-type-header.quiz-product-price {
+    font-family: Excellent, "monospace";
+    font-size: 15px
+}
+
+.ui-type-header.quiz-product-price .ui-type-badge {
+    background-color: #fff5b0
+}
+
+section.badges {
+    padding-bottom: 70px
+}
+
+section.badges h3 {
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: 4px
+}
+
+.badges-group {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 40px 0 60px
+}
+
+.badges__badge {
+    align-items: center;
+    max-height: 130px;
+    max-width: 130px;
+    padding: 1rem
+}
+
+.badge-button-group button {
+    width: 100%
+}
+
+.press-highlight {
+    left: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    position: relative;
+    right: 50%;
+    width: 100vw
+}
+
+section.press-highlight {
+    border-radius: 3px;
+    overflow: auto;
+    padding-bottom: 55px
+}
+
+.press-highlight-img-flex-wrapper img {
+    display: block;
+    width: 100%
+}
+
+.press-highlight__companies {
+    background-color: #eef8f7;
+    padding: 20px 10px;
+    text-align: center
+}
+
+.press-highlight__companies h3 {
+    padding-bottom: 20px
+}
+
+.press-highlight__companies img {
+    padding: 0 5px;
+    vertical-align: middle
+}
+
+.serum-reviews {
+    background-color: #fafafa;
+    left: 50%;
+    margin-bottom: 50px;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    position: relative;
+    right: 50%;
+    width: 100vw
+}
+
+section.serum-reviews {
+    margin-top: 30px;
+    padding: 40px
+}
+
+.stars-img {
+    display: block;
+    margin: 0 auto;
+    max-width: 200px
+}
+
+.reviews-average {
+    text-align: center
+}
+
+.reviews-average-rating {
+    color: #262929;
+    display: inline-block;
+    font-size: 32px;
+    padding: 10px 0
+}
+
+.total-reviews {
+    font-family: Excellent, Courier New, "monospace";
+    font-weight: 400;
+    text-transform: uppercase
+}
+
+.serum-reviews-carousel {
+    padding: 0 30px
+}
+
+.carousel-wrapper {
+    left: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    padding: 0 2rem;
+    position: relative;
+    right: 50%;
+    width: 100vw
+}
+
+.serum-review {
+    background-color: #fff;
+    margin: 30px;
+    padding: 40px
+}
+
+.serum-review blockquote {
+    line-height: 1.5
+}
+
+.serum-review blockquote>span {
+    background-color: #faeaea
+}
+
+.arrow {
+    bottom: 50%;
+    bottom: 54%;
+    max-width: 50px;
+    position: absolute;
+    width: 100%;
+    z-index: 1
+}
+
+.previous-arrow {
+    left: -15px
+}
+
+.next-arrow {
+    right: -15px
+}
+
+.toggle-ingredients-list {
+    color: #2fa79b;
+    cursor: pointer;
+    font-size: 14px;
+    margin-bottom: 3rem;
+    text-decoration: underline
+}
+
+@media only screen and (min-width:498px) {
+    .formula-img-wrapper .formulaName {
+        font-size: 21px;
+        top: 46%
+    }
+}
+
+@media only screen and (min-width:900px) {
+    .skin-bundle-wrapper .quiz-buttons {
+        max-width: 600px
+    }
+    .ingredients-highlight__info {
+        display: flex
+    }
+    .ingredients-highlight__info article {
+        display: flex;
+        flex: 1;
+        flex-direction: column
+    }
+    .ingredient-article img {
+        padding-bottom: 20px
+    }
+    .ingredient-article__text {
+        max-width: 230px
+    }
+    .ingredient-article__text p {
+        padding: 15px 0 0
+    }
+    .ingredient-article__text h2,
+    .ingredient-article__text p {
+        font-size: 16px;
+        text-align: center
+    }
+    .no-ingredients-list {
+        margin: 0 auto;
+        max-width: 330px
+    }
+    .ui-type-header.quiz-product-price {
+        font-size: 16px
+    }
+    .ui-type-header.quiz-product-price .ui-type-badge {
+        background-color: #fff5b0
+    }
+    .ingredient-wrapper:nth-of-type(2) {
+        padding: 0 10px
+    }
+    .press-highlight {
+        display: flex;
+        left: unset;
+        margin-left: unset;
+        margin-right: unset;
+        position: unset;
+        right: unset;
+        width: unset
+    }
+    .press-highlight>div {
+        flex: 1
+    }
+    .press-highlight-img-flex-wrapper img {
+        vertical-align: top
+    }
+    .press-highlight__companies {
+        padding-bottom: 40px;
+        padding-top: 40px
+    }
+    .press-highlight__companies img {
+        display: block;
+        margin: 30px auto;
+        padding: 0;
+        width: 170px
+    }
+    .press-highlight__companies img:last-of-type {
+        max-width: 145px
+    }
+}
+
+.bf-cm-banner {
+    display: block;
+    font-family: Freight;
+    font-family: WhitmanItalic;
+    letter-spacing: .75px;
+    padding: 1.2rem;
+    position: relative;
+    text-align: center;
+    z-index: 2
+}
+
+.bf-cm-banner a {
+    color: #4c5150;
+    font-size: 1.2rem;
+    font-size: 14px;
+    text-decoration: none
+}
+
+#bfBanner,
+#cmBanner,
+#detailsModalBtn {
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    margin-left: 5px;
+    width: auto
+}
+
+@media only screen and (min-width:768px) {
+    #bfBanner,
+    #cmBanner,
+    #detailsModalBtn {
+        font-size: 14px
+    }
+}
+
+/*# sourceMappingURL=serum-quiz.css.map*/
